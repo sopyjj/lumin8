@@ -3,12 +3,14 @@
     <head>
         <style>
             h1 {text-align: center;}
+            h2 {text-align: center;}
+            h2 {font-family: Arial, Helvetica, sans-serif;}
             p {text-align: center;}
             div {text-align: center;}
         </style>
         <meta charset="UTF-8">
         <meta name ="viewport" content = "with = device-width, initial-scale = 1.0">
-        <title> lumin8 Community Hub</title>
+        <title> Lumin8 Community Hub</title>
         <link rel="stylesheet" href="style.css">
     </head>
 <body>
@@ -27,6 +29,21 @@
 
     <main>
         <h1> Signup </h1>
+        <h2> Welcome to Lumin8!</h2>
+        <form id = "signup-form">
+            <input type = "text" id = "fullname" placeholder="Full Name" required>
+            <input type = "email" id = "password" placeholder="Password" required>
+            <input type = "password" id = "email" placeholder="Email" required>
+            <input type = "password" id = "confirm-password" placeholder="Confirm Password" required>
+            <select id = "user type" required>
+                <option value = ""> Select User Type</option>
+                <option value = "student"> Student</option>
+                <option value = "alumni"> Alumni</option>
+                <option value = "teacher"> Teacher</option>
+                <option value = "visitor"> Visitor</option>
+            </select>
+            <button type = "submit">Sign Up</button>
+        </form>
     </main>
 
     <footer>
